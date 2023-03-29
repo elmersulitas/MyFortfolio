@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="moon.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+	<!------------------------|JavaScript Bundle with Popper|----------------------->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://kit.fontawesome.com/86f88e86bb.js"></script>
+	
+</head>
+<body>
+
+		<!-------------------------|Header|--------------------------------->
+		<header>
+
+			<a href="#" class="logo">ELMER 🤍</a>
+
+      				<ul>
+       					 <li class="item">
+        				 	<a href="#" class="active">HOME</a></li>
+       					 <li class="item">
+        					<a href="#about">ABOUT ME</a>
+       					 </li>
+        				 <li class="item">
+         					<a href="#sliderss">PROJECTS</a>
+        				 </li>
+      					 <li class="item">
+          					<a href="#contacts"></i>CONTACT</a>
+       					 </li>
+      				</ul>
+      				
+   		</header>
+   		<section>
+   			<img src="stars.png" id="stars">
+   			<img src="moon.png" id="moon">
+   			<img src="behind.png" id="behind">
+   			<h2 id="text">My Porfolio</h2>
+   			<a href="#about" id="next"> ⮛ </a>
+   			<img src="front.png" id="front">
+   			
+   		</section>
+   		<!------------------------------|ABOUT|-------------------------------------->
+
+   		<div class="aboutcontainer" id="about">
+		<div class="row">
+		<div class="col-md-6 text-center">
+			<img src="pogi.jpg" class="profile-img">
+		</div>
+		<div class="col-md-6">
+			<h3>Elmer G. Sulitas Jr</h3>
+			<p>Date of Birth : August 27, 2001<br> Marital Status : Single<br> Nationality : Filipino<br> Language : Filipino<br></p>
+			<p>	To show my knowledge and skills in the specialization and to apply my skills in a stable organization & actual experience to become more effective and efficient employee.</p>
+			<div class="skills-bar">
+				<p>Effective in computer troubleshooting</p>
+				<div class="progress">
+					<div class="progress-bar" style="width: 80%;">
+						80%
+					</div>
+				</div>
+				<p>Video Editing</p>
+				<div class="progress">
+					<div class="progress-bar" style="width: 50%;">
+						50%
+					</div>
+				</div>
+				
+				<p>Microsoft Office operation</p>
+				<div class="progress">
+					<div class="progress-bar" style="width: 80%;">
+						80%
+					</div>
+				</div>
+				<br><br>
+				<br><br>
+				
+				<a href="#sliderss" id="project"> ⮛ </a><br><br><br><br><br><br><br>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!------------------------------|Project|-------------------------------------->
+<div class="sliders" id="sliderss">
+
+	<div class="slider middle">
+		<h1 class="act">PROJECTS</h1>
+		<div class="slides">
+			<input type="radio" name="r" id="r1" checked>
+			<input type="radio" name="r" id="r2" >
+			<input type="radio" name="r" id="r3" >
+			<input type="radio" name="r" id="r4" >
+			<input type="radio" name="r" id="r5" >
+			<div class="slide s1">
+				<img src="ESS.png" alt="">
+				</div>
+				<div class="slide s">
+				<img src="1.png" alt="">
+				</div>
+			<div class="slide s">
+				<img src="2.png" alt="">
+				</div>
+			<div class="slide s">
+				<img src="3.png" alt="">
+				</div>
+			<div class="slide s">
+				<img src="4.png" alt="">
+				</div>
+		</div>
+
+		<div class="navigation">
+			<label for="r1" class="bar"></label>
+			<label for="r2" class="bar"></label>
+			<label for="r3" class="bar"></label>
+			<label for="r4" class="bar"></label>
+			<label for="r5" class="bar"></label>
+
+		</div>
+				<div class="nextt page">
+					<a href="#contacts" id="contact"> ⮛ </a>
+		</div>
+		
+	</div>
+	<div class="enroll system">
+		<h2>Enrollment System</h2>
+		<p>Enrollment system refers to the act of signing up for school and/or specific classes or co-curricular activities at that particular school. The enrollment process is completed after a student is granted admission to a particular school. Students can then select courses to take through their school’s online student information service.</p>
+
+	</div>
+	<div class="projectt objectives">
+		<h2>.......Objectives.......</h2>
+		<p>• To provide an easier access for the enrollees through online enrollment system.
+		<br>• To have real-time registration of the students for the semester.
+		<br>• To helps the staff in the accounting office to input and retrieve data in a more efficient way .
+		<br>• To secure the data, information and transaction of a student using a database management system.
+		<br>• To manage the data effectively, and to use it to analyze its own activities.
+		<br>• To minimize the time to gathering the files and data.
+		<br>• To know the solutions needed for the current enrollment system with the proposed system by evaluating and studying to meet the requirements by the university.</p>
+
+	</div>
+</div>
+	<!------------------------------|Contact|-------------------------------------->
+	<footer>
+	<div class="contact" id="contacts"> 
+		<div class="h1">
+			
+		</div>
+		<div class="fb"></div>
+			
+			
+			<div class="social">
+				<a href="https://www.facebook.com/elmer.sulitas"><i class="fa-brands fa-facebook"></i></a>
+				<a href="https://www.instagram.com/elmersulitas/"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+	</footer>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+	<script>
+		let stars = document.getElementById('stars');
+		let moon = document.getElementById('moon');
+		let behind = document.getElementById('behind');
+		let text = document.getElementById('text');
+		let next = document.getElementById('next');
+		let front = document.getElementById('front');
+	
+		window.addEventListener('scroll', function(){
+			let value = window.scrollY;
+			stars.style.left = value * 0.25 + 'px';
+			moon.style.top = value * 1.05 + 'px';
+			behind.style.top = value * 0.5 + 'px';
+			front.style.top = value * 0 + 'px';
+			text.style.marginRight = value * 2 + 'px';
+			next.style.marginLeft = value * 2 + 'px';
+
+		})
+	</script>
+
+
+
+
+</body>
+</html>
